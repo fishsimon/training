@@ -7,7 +7,7 @@
         body{margin:0;
              padding:0;
              font-size:62.5%;}
-        div{border:1px solid red;}
+        div{border:0px solid red;}
         .aleft{height:4em;
                 float:left;}
         .aright{height:4em;
@@ -15,37 +15,118 @@
         .a1 h1{color:orangered;
             font-size:2em;}
         .a1{float:left;
-            margin-left:4em;}
+            margin-left:7em;
+            margin-top:1em;}
         .in1{padding:1em;
-             background-color:darkkhaki;
+             background-color:white;
              border-radius:15%;}
         .a2 h1{color:darkkhaki;
-               font-size:1.5em;}
+               font-size:2em;}
         .a2{float:left;
-            margin-right:4em;
-            margin-top:1em;}
+            margin-right:5em;
+            margin-top:2em;}
         .a21{color:darkkhaki;
              font-size:2em;}
-        .a22{ border-radius:10px;
+        .a22{ border-radius:1em;
               background-color:white;
-              PADDING:1em;
-              border:1px solid orangered;}
-        .a23{border-radius:10px;
+              PADDING:1em 2em;
+              border:1px solid orangered;  }
+        .a23{border-radius:1em;
             background-color:orange;
-            padding:1em;
-           color:white;}
+            padding:1em 2em;
+            color:white;  }
+        .pic1{margin-top:3em;
+              margin-left:10em;
+              width:60em;
+              height:35em;
+              float:left;}
         aside{float:right;
                margin-top:3em;
-              }
-        content{margin-top:3em;}
+               width:30em;
+               height:40em;
+               margin-right:10em;}
+        .right-pic{height:5em;
+                     width:28em;}
+        .right-dpic{height:16em;
+            width:28em;}
+        .content-pic{
+            height:25em;
+            width:53em;
+            margin-left:1em;
+        }
+        .pic2{
+            margin-top:2em;
+        }
+        .botm-pic{
+            float:left;
+            height:7em;
+            width:7em;
+            margin:1em;
+        }
+        .bottom-pic{
+            height:7em;
+            width:7em;
+        }
+        .choose{
+            color:silver;
+            font-size:2em;
+            text-decoration:none;
+        }
+        .user{
+            margin-left:10em;
+            width:60em;
+            height:15em;
+            float:left;
+        }
+         .user-left{
+             width:40em;
+             float:left;
+             height:12em;
+         }
+         .user-right{
+             float:right;
+             height:20em;
+             width:18em;
+         }
+        .bottom-left{
+            float:right;
+            width:30em;
+            height:40em;
+            margin-right:10em;
+        }
+        .head-por{
+            border-radius:50%;
+            height:3.2em;
+            width:3.2em;
+            margin-left:1em;
+        }
+        .who{
+            font-size:2em;
+            color:black;
+            text-decoration:none;
+            margin-left:1em;
+        }
+       .p{font-size:0.5em;
+           margin-left:1em;
+           }
+        .life-pic{
+            height:10em;
+            width: 12.5em;
+            margin-left:2em;
+        }
+        .fake{
+            width:28em;
+            height:10em;
+        }
+
     </style>
 </head>
 <body>
 <header>
     <div class="aleft">
         <div class="a1"><h1 >简书</h1></div>
-        <div class="a1">what</div>
-        <div class="a1">how</div>
+        <div class="a1"><h1 >首页</h1></div>
+        <div class="a1"><h1 >下载APP</h1></div>
         <div class="a1"><input placeholder="搜索" class="in1"></input></div>
         <div style="clear:both;"></div>
     </div>
@@ -58,17 +139,36 @@
     </div>
     <div style="clear:both;"></div>
 </header>
-<content>
-    <div>pic</div>
-    <div>pic</div>
-</content>
+<div class="pic1">
+    <div><img class="content-pic" src="/training/public/img/big.jpg"></div>
+    <div class="pic2">
+        <div class="botm-pic"><img class="bottom-pic" src="/training/public/img/sml1.jpg"></div>
+        <div class="botm-pic"><img class="bottom-pic" src="/training/public/img/sml2.jpg"></div>
+        <div class="botm-pic"><img class="bottom-pic" src="/training/public/img/sml3.jpg"></div>
+        <div class="botm-pic"><img class="bottom-pic" src="/training/public/img/sml4.jpg"></div>
+        <div class="botm-pic"><img class="bottom-pic" src="/training/public/img/sml5.jpg"></div>
+        <div class="botm-pic"><a href="##" class="choose">更多热门专题 ></a></div>
+        <div style="clear:both"></div>
+    </div>
+</div>
 <aside>
-    <div> 新上榜 ></div>
-    <div>日报 ></div>
-    <div>7月热门 ></div>
-    <div>30日热门 ></div>
-    <div></div>
+    <div><img class="right-pic"  src="/training/public/img/1.png"></div>
+    <div><img class="right-pic"  src="/training/public/img/2.png"></div>
+    <div><img class="right-pic"  src="/training/public/img/3.png"></div>
+    <div><img class="right-pic"  src="/training/public/img/4.png"></div>
+    <div><img class="right-dpic"  src="/training/public/img/5.png"></div>
 </aside>
-
+<div  style="clear:both"></div>
+<div class="user">
+    <div class="user-left">
+        <div><img class="head-por" src="/training/public/img/head-por.jpeg">夏姬八羔 &nbsp;7小时前 </div>
+        <div><a href="##" class="who"><b>优秀的人，凭什么要和你在一起？</b></a></div>
+        <div class="p">01 一直有一个这样的问题：“为什么优秀的人总是不合群？” 网上最经典的答案是：“优秀的人也合群，只是他们合的群里没有你。” 02 想起了自己的一些故事。 大学时，我遇到了一...</div>
+    </div>
+    <div class="user-right"><img class="life-pic" src="/training/public/img/user.jpeg"></div>
+    <div style="clear:both"></div>
+</div>
+<div class="bottom-left"><img class="fake" src="/training/public/img/fake.png"></div>
+<div style="clear:both"></div>
 </body>
 </html>
