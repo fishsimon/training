@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>p-elements</title>
+    <style>
+        p{
+            font-size:20px;
+        }
+        p::after{
+            content:"woo";
+            color:fuchsia;
+            background-color:darkcyan;
+            height:20px;
+            width:20px;
+        }
+        p::first-letter{
+            color:pink;
+        }
+        p::first-line{
+            color:yellow;
+        }
+    </style>
+</head>
+<body>
+<p>Hellow,<br/>world!</p>
+<p><mark>hellow</mark></p>
+</body>
+</html>
