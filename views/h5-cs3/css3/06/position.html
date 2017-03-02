@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定位</title>
+    <style>
+    .botm-pic{
+    float:left;
+    height:7em;
+    width:7em;
+    margin:1em;
+        position:relative;
+        left:10em;
+        top:20em;
+        z-index:5;/*让图片上浮下沉*/
+    }
+    .bottom-pic{
+    height:7em;
+    width:7em;
+    }
+    .botm-pic1 {
+        float: left;
+        height: 7em;
+        width: 7em;
+        margin: 1em;
+        position:relative;
+        top:20em;
+    }
+        .section1{border:1px red solid;
+                   height:200px;
+                   width:500px;}
+        .section2{border:1px red solid;
+            height:200px;
+            width:500px;
+        position:relative;
+        top:-150px;
+        left:40px;}
+
+    </style>
+</head>
+<body>
+<div class="botm-pic"><img class="bottom-pic" src="/training/public/img/sml1.jpg"></div>
+<div class="botm-pic1"><img class="bottom-pic" src="/training/public/img/sml2.jpg"></div>
+<div class="section1">这是段落一，他在文档流中处于相对的位置</div>
+<div class="section2">这是段落二，他在文档流中移动了一段距离</div>
+<div class="section1">这是段落三，他在文档流中处于相对的位置</div>
+</body>
+
+</html>

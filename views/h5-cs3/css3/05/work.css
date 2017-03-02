@@ -1,0 +1,122 @@
+body{margin:0;
+    padding:0;
+    font-size:62.5%;}
+div{border:0px solid red;}
+.aleft{height:4em;
+    float:left;}
+.aright{height:4em;
+    float:right;}
+.a1 h1{color:orangered;
+    font-size:2em;}
+.a1{float:left;
+    margin-left:7em;
+    margin-top:1em;}
+.in1{padding:1em;
+    background-color:white;
+    border-radius: 4em;;}
+.a2 h1{color:darkkhaki;
+    font-size:2em;}
+.a2{float:left;
+    margin-right:5em;
+    margin-top:2em;}
+.a21{color:darkkhaki;
+    font-size:2em;
+    text-decoration:none;}
+.a22{ border-radius:1em;
+    background-color:white;
+    PADDING:1em 2em;
+    border:1px solid orangered;
+    text-decoration:none;}
+.a23{border-radius:1em;
+    background-color:orange;
+    padding:1em 2em;
+    color:white;
+    text-decoration:none;}
+.pic1{margin-top:3em;
+    margin-left:10em;
+    width:60em;
+    height:35em;
+    float:left;}
+aside{float:right;
+    margin-top:3em;
+    width:30em;
+    height:40em;
+    margin-right:10em;}
+.right-pic{height:5em;
+    width:28em;}
+.right-dpic{height:16em;
+    width:28em;}
+.content-pic{
+    height:25em;
+    width:53em;
+    margin-left:1em;
+}
+.pic2{
+    margin-top:2em;
+}
+.botm-pic{
+    float:left;
+    height:7em;
+    width:7em;
+    margin:1em;
+}
+.bottom-pic{
+    height:7em;
+    width:7em;
+}
+.choose{
+    color:silver;
+    font-size:2em;
+    text-decoration:none;
+}
+.user{
+    margin-left:10em;
+    width:60em;
+    height:15em;
+    float:left;
+}
+.user-left{
+    width:40em;
+    float:left;
+    height:12em;
+}
+.user-right{
+    float:right;
+    height:20em;
+    width:18em;
+}
+.bottom-left{
+    float:right;
+    width:30em;
+    height:40em;
+    margin-right:10em;
+}
+.head-por{
+    border-radius:50%;
+    height:3.2em;
+    width:3.2em;
+    margin-left:1em;
+}
+.who{
+    font-size:2em;
+    color:black;
+    text-decoration:none;
+    margin-left:1em;
+}
+.p{font-size:0.5em;
+    margin-left:1em;
+    margin-top:1em;
+    line-height:1.5em;
+}
+.life-pic{
+    height:10em;
+    width: 12.5em;
+    margin-left:2em;
+}
+.fake{
+    width:28em;
+    height:10em;
+}
+.user-self{
+    margin-top:1em;
+}
