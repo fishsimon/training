@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    padding:0;
+    font-size:62.5%;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height:2.5em;
+    width:100%;
+    border:2px darkgrey solid;
+    position:fixed;
+    background-color:yellowgreen;
+    z-index: 2;
+}
+.word{
+    font-size:1.5em;
+    color:orangered;
+}
+.content{
+    width:100%;
+}
+aside{
+    width:30%;
+    height:15em;
+    position:fixed;
+    top:2.8em;
+    border:1px red solid;
+    overflow: auto;
+}
+.line{
+    margin:3em;
+    font-size:1.5em;
+    color:sienna;
+    line-height:5em;
+}
+section{
+    height:43em;
+    width:68%;
+    position:fixed;
+    top:2.8em;
+    left:28em;
+    font-size:1.5em;
+    overflow-y:auto ;
+
+}
+.atc{
+    overflow: auto;
+    height:30em;
+    width:98%;
+    border:0px solid red;
+}
