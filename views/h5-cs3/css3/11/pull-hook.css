@@ -1,0 +1,104 @@
+body{
+    margin:0;
+    padding: 0;
+    font-size:62.5%;
+}
+a{
+    text-decoration: none;
+}
+.header-1{
+    height:3em;
+    background-color:black;
+    width:100%;
+}
+.in-1 a{
+    color:#08d7a2;
+    font-size:1.5em;
+    line-height:3em;
+}
+.in-1 a:hover{
+    color:lime;
+}
+.in-1{
+    position:absolute;
+    left:3%;
+}
+.in-2 a{
+    color:#c4c3c3;
+    font-size:1.5em;
+    line-height:3em;
+}
+.in-2{
+    position: absolute;
+    left:9%
+}
+.in-2 a:hover {
+    color: #ffffff;
+}
+.in-3 a{
+    color:#c4c3c3;
+    font-size:1.5em;
+    line-height:3em;
+}
+.in-3{
+    position: absolute;
+    left:91%
+}
+.in-3 a:hover {
+    color: #ffffff;
+}
+.in-4 a{
+    color:#c4c3c3;
+    font-size:1.5em;
+    line-height:3em;
+}
+.in-4{
+    position: absolute;
+    left:95%
+}
+.in-4 a:hover {
+    color: #ffffff;
+}
+.header-2{
+    height:5.4em;
+    border-top:1px solid #d2d2d2;
+    border-bottom:1px solid #d2d2d2;
+    background-color:#fafafa;
+}
+.logo{
+    margin-top:1em;
+    background-image: url("/training/public/img/logo.png");
+    height:2.8em;
+    width:8.1em;
+    margin-left:12%;
+    float:left;
+}
+.word-1 a{
+    color:#999;
+    font-size:0.8em;
+}
+.word-1{
+    font-size:2em;
+    margin-right: 0.8em;
+    font-weight: 400;
+    margin-left:1em;
+    float:left;
+    margin-top:1.5em;
+}
+.word-2{
+    float:left;
+
+}
+ul li{
+    list-style: none;
+    font-size:2em;
+    float:left;
+    margin-right:1.5em;
+    margin-top:1em;
+}
+ul li a{
+    color:#999;
+}
+ul li a:hover{
+    color:black;
+}
