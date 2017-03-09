@@ -1,0 +1,271 @@
+body{
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width:100%;
+    height:50px;
+    background-color: #f5595b;
+    display: flex;
+    justify-content:center;
+}
+.header-in1{
+    width:1142px;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height:50px;
+    line-height: 50px;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo a{
+    margin:20px;
+    color:#fff;
+}
+.logo-1{
+    background: url("/training/public/img/good_food/good_food.png") no-repeat -13px -6px;
+    width:26px;
+    height:41px;
+    display: inline-block;
+}
+.logo-2{
+    background: url("/training/public/img/good_food/good_food.png") no-repeat -50px -3px;
+    width:46px;
+    height:50px;
+    display:inline-block;
+    background-color: #fff;
+}
+.logo-3{
+    background: url("/training/public/img/good_food/good_food.png") no-repeat -101px -20px;
+    width:24px;
+    height:22px;
+    display: inline-block;
+    margin-left:10px;
+}
+.content{
+    background-image: url("/training/public/img/good_food/bg-pic.png");
+    width:100%;
+    height:949px;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+.nav{
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+    width:1142px;
+    height:61px;
+    margin: 0;
+    padding: 0;
+}
+.nav .nav-1, .nav-2{
+    width:190px;
+    height:61px;
+    font-size:24px;
+    font-family: "微软雅黑";
+    text-align: center;
+    line-height: 61px;
+}
+.nav-1{
+     display: block;
+     background-color: #1f3f55;
+     color:#fff;
+}
+.nav-2{
+    display: block;
+    background-color:rgba(255,255,255,0.3);
+    border-left:1px solid #fff;
+}
+.pic-1{
+    margin-top:73px;
+    margin-bottom: 14px;
+    background: url("/training/public/img/good_food/good_food.png") no-repeat -64px -270px;
+    height:128px;
+    width:128px;
+}
+.chinese{
+    height:59px;
+    width:189px;
+    margin-bottom: 30px;
+}
+.chinese a{
+    font-family: "微软雅黑";
+    font-size:46px;
+    color:#f5595b;
+}
+.chinese-1{
+    height:59px;
+    width:699px;
+    margin-bottom: 42px;
+}
+.chinese-1 a{
+    font-family: "微软雅黑";
+    font-size:46px;
+    color:#fff;
+}
+.x-box{
+    background-color: #f5595b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:44px;
+    width:184px;
+}
+.x-box a{
+    color:#fff;
+    font-size:20px;
+    font-family: "微软雅黑";
+}
+.content-2{
+    display: flex;
+    width:1128px;
+    height:329px;
+    justify-content:space-between;
+    margin-top:117px;
+    padding-left:14px;
+}
+.content-3{
+    width:351px;
+    height:310px;
+}
+.up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:351px;
+    height:176px;
+    background-color: rgba(255,255,255,0.3);
+}
+.icon1{
+    background: url("/training/public/img/good_food/good_food.png") no-repeat -95px -130px;
+}
+.icon2{
+    background: url("/training/public/img/good_food/good_food.png") no-repeat -313px -142px;
+}
+.icon3{
+    background: url("/training/public/img/good_food/good_food.png") no-repeat -532px -170px;
+}
+.icon1,.icon2,.icon3{
+    height:75px;
+    width:75px;
+    display: block;
+    margin-top: 60px;
+}
+.word{
+    height:28px;
+    width:84px;
+    margin-top:10px;
+}
+.word a{
+    font-weight: bold;
+    font-size:20px;
+    color:#2b2119;
+    display: block;
+    margin:0 auto;
+}
+.word1{
+    height:28px;
+    width:44px;
+    margin-top:10px;
+}
+.word1 a{
+    font-weight: bold;
+    font-size:20px;
+    color:#2b2119;
+    display: block;
+    margin:0 auto;
+}
+.content p{
+    color:#fff;
+    font-size: 16px;
+    font-family:"微软雅黑";
+    line-height: 2em;
+    text-indent: 2em;
+}
+.screen2{
+    background-color: #fff;
+    width:100%;
+    height:913px;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+.title2{
+    height:32px;
+    width:99px;
+    margin-top:54px;
+    margin-bottom: 22px;
+}
+.title2 p{
+    margin:0;
+    font-family: "微软雅黑";
+    color:#f5595b;
+    font-size: 24px;
+}
+.line1{
+    display: block;
+    border:2px solid #000;
+    width:193px;
+    margin-bottom: 27px;
+}
+.sc2-word{
+    width:855px;
+    height:119px;
+    margin-bottom: 17px;
+}
+.sc2-word p{
+    font-size: 17px;
+    line-height: 30px;
+    font-family: "微软雅黑";
+    text-indent: 2em;
+}
+.sc2-content{
+    width:1128px;
+    height:572px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sc2-pic1{
+    background-image: url("/training/public/img/good_food/good_food1.png");
+    height:268px;
+    width:350px;
+}
+.sc2-pic2{
+    background-image: url("/training/public/img/good_food/love_food2.png");
+    height:268px;
+    width:350px;
+}
+.sc2-pic3{
+    background-image: url("/training/public/img/good_food/good_food3.png");
+    height:268px;
+    width:350px;
+}
+.sc2-pic4{
+    background-image: url("/training/public/img/good_food/good_food4.png");
+    height:268px;
+    width:350px;
+}
+.sc2-pic5{
+    background-image: url("/training/public/img/good_food/good_food5.png");
+    height:268px;
+    width:350px;
+}
+.sc2-pic6{
+    background-image: url("/training/public/img/good_food/good_food6.png");
+    height:268px;
+    width:350px;
+}
+
+
+
+
