@@ -2,57 +2,408 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>简书</title>
-   <link href="work.css" rel="stylesheet">
+    <title>首页-简书</title>
+    <link rel="stylesheet" href="work.css" type="text/css">
+    <link rel="icon" href="http://baijii-common.b0.upaiyun.com/icons/favicon.ico">
 </head>
 <body>
-<header>
-    <div class="aleft">
-        <div class="a1"><h1 >简书</h1></div>
-        <div class="a1"><h1 >首页</h1></div>
-        <div class="a1"><h1 >下载APP</h1></div>
-        <div class="a1"><input placeholder="搜索" class="in1"></input></div>
-        <div style="clear:both;"></div>
-    </div>
-    <div class="aright">
-        <div class="a2"><h1>Aa</h1></div>
-        <div class="a2"><a  href="##" class="a21">登录</a></div>
-        <div class="a2"><a  href="##" class="a22">注册</a></div>
-        <div class="a2"><a  href="##" class="a23">写文章</a></div>
-        <div style="clear:both;"></div>
-    </div>
-    <div style="clear:both;"></div>
+<header class="header">
+    <nav class="nav">
+        <ul class="nav-left">
+            <li>
+                <a class="logo" href="#">简书</a>
+            </li>
+            <li>
+                <a class="home-p" href="#">首页</a>
+            </li>
+            <li>
+                <a href="#">下载app</a>
+            </li>
+            <li>
+                <input class="sec" type="text" placeholder="搜索">
+            </li>
+            <li>
+                <input class="holder" type="button" value="搜索">
+            </li>
+        </ul>
+        <ul class="nav-right">
+            <li class="nav-write">
+                <a class="nav-button-write" href="#">写文章</a>
+            </li>
+            <li class="nav-login">
+                <a class="nav-button" href="#">注册</a>
+            </li>
+            <li>
+                <a href="#">登录</a>
+            </li>
+            <li>
+                <a href=""> Aa</a>
+            </li>
+        </ul>
+        <div style="clear: both"></div>
+    </nav>
 </header>
-<div class="pic1">
-    <div><img class="content-pic" src="/training/public/img/big.jpg"></div>
-    <div class="pic2">
-        <div class="botm-pic"><img class="bottom-pic" src="/training/public/img/sml1.jpg"></div>
-        <div class="botm-pic"><img class="bottom-pic" src="/training/public/img/sml2.jpg"></div>
-        <div class="botm-pic"><img class="bottom-pic" src="/training/public/img/sml3.jpg"></div>
-        <div class="botm-pic"><img class="bottom-pic" src="/training/public/img/sml4.jpg"></div>
-        <div class="botm-pic"><img class="bottom-pic" src="/training/public/img/sml5.jpg"></div>
-        <div class="botm-pic"><a href="##" class="choose">更多热门专题 ></a></div>
-        <div style="clear:both"></div>
+<section class="content">
+    <img class="home-pic"
+         src="/training/public/img/big.jpg" alt="">
+    <div class="content-home">
+        <ul>
+            <li><img class="home-pic-small" src="/training/public/img/sml1.jpg" alt="">
+                <p>@IT*互联网</p>
+            </li>
+
+            <li>
+                <img class="home-pic-small" src="/training/public/img/sml2.jpg"
+                     alt="">
+                <p>短篇小说</p>
+            </li>
+            <li>
+                <img class="home-pic-small"
+                     src="/training/public/img/sml3.jpg" alt="">
+                <p>大学生活</p>
+            </li>
+            <li>
+                <img class="home-pic-small"
+                     src="/training/public/img/sml4.jpg" alt="">
+                <p>艺术文化</p>
+            </li>
+            <li>
+                <img class="home-pic-small" src="/training/public/img/sml5.jpg">
+                <p>连载小说</p>
+            </li>
+            <li>
+                <img class="home-pic-small" src="/training/public/img/sml1.jpg"
+                     alt="">
+                <p>想法</p>
+            </li>
+            <li><img class="home-pic-small"
+                     src="/training/public/img/sml2.jpg" alt="">
+                <p>更多热门
+                    <br/>
+                    专题
+                </p>
+            </li>
+        </ul>
     </div>
-</div>
-<aside>
-    <div><img class="right-pic"  src="/training/public/img/1.png"></div>
-    <div><img class="right-pic"  src="/training/public/img/2.png"></div>
-    <div><img class="right-pic"  src="/training/public/img/3.png"></div>
-    <div><img class="right-pic"  src="/training/public/img/4.png"></div>
-    <div><img class="right-dpic"  src="/training/public/img/5.png"></div>
+    <article>
+        <div class="article-left">
+            <div class="use-name">
+                <img class="head-pic" src="/training/public/img/head-por.jpeg" alt="">
+                <span class="name"> 刘淼</span>
+                <span class="time"> 一小时前</span>
+                <h2>
+                    <a href="#">
+                        优秀的人，凭什么要和你在一起？
+                    </a>
+                </h2>
+                <p class="article-content">
+                    01 一直有一个这样的问题：“为什么优秀的人总是不合群？” 网上最经典的答案是：
+                    “优秀的人也合群，只是他们合的群里没有你。” 02 想起了自己的一些故事。 大学时，我遇到了一...
+                </p>
+                <img class="img-right"
+                     src="/training/public/img/user.jpeg" alt="">
+            </div>
+        </div>
+        <div class="article-left">
+            <div class="use-name">
+                <img class="head-pic" src="/training/public/img/head-por.jpeg" alt="">
+                <span class="name"> 义琳</span>
+                <span class="time"> 一小时前</span>
+                <h2>
+                    <a href="#">
+                        没有真相的背影和没有达到的酒局
+                    </a>
+                </h2>
+                <p class="article-content">
+                    “你他妈居然还活着？！” 史三多刚一推门进来，就被东北猫瞅见了，于是，先是隔着老远大喊了一句，
+                    接着就开始冲着他数落：“你小子昨天是咋回事啊，人也不到，电话也关机，害我们一直等...
+                </p>
+                <img class="img-right" src="/training/public/img/user.jpeg"
+                     alt="">
+            </div>
+        </div>
+    </article>
+    <article>
+        <div class="article-left">
+            <div class="use-name">
+                <img class="head-pic" src="/training/public/img/head-por.jpeg" alt="">
+                <span class="name"> 刘淼</span>
+                <span class="time"> 一小时前</span>
+                <h2>
+                    <a href="#">
+                        优秀的人，凭什么要和你在一起？
+                    </a>
+                </h2>
+                <p class="article-content">
+                    01 一直有一个这样的问题：“为什么优秀的人总是不合群？” 网上最经典的答案是：
+                    “优秀的人也合群，只是他们合的群里没有你。” 02 想起了自己的一些故事。 大学时，我遇到了一...
+                </p>
+                <img class="img-right"
+                     src="/training/public/img/user.jpeg" alt="">
+            </div>
+        </div>
+        <div class="article-left">
+            <div class="use-name">
+                <img class="head-pic" src="/training/public/img/head-por.jpeg" alt="">
+                <span class="name"> 义琳</span>
+                <span class="time"> 一小时前</span>
+                <h2>
+                    <a href="#">
+                        没有真相的背影和没有达到的酒局
+                    </a>
+                </h2>
+                <p class="article-content">
+                    “你他妈居然还活着？！” 史三多刚一推门进来，就被东北猫瞅见了，于是，先是隔着老远大喊了一句，
+                    接着就开始冲着他数落：“你小子昨天是咋回事啊，人也不到，电话也关机，害我们一直等...
+                </p>
+                <img class="img-right" src="/training/public/img/user.jpeg"
+                     alt="">
+            </div>
+        </div>
+    </article>
+    <article>
+        <div class="article-left">
+            <div class="use-name">
+                <img class="head-pic" src="/training/public/img/head-por.jpeg" alt="">
+                <span class="name"> 刘淼</span>
+                <span class="time"> 一小时前</span>
+                <h2>
+                    <a href="#">
+                        优秀的人，凭什么要和你在一起？
+                    </a>
+                </h2>
+                <p class="article-content">
+                    01 一直有一个这样的问题：“为什么优秀的人总是不合群？” 网上最经典的答案是：
+                    “优秀的人也合群，只是他们合的群里没有你。” 02 想起了自己的一些故事。 大学时，我遇到了一...
+                </p>
+                <img class="img-right"
+                     src="/training/public/img/user.jpeg" alt="">
+            </div>
+        </div>
+        <div class="article-left">
+            <div class="use-name">
+                <img class="head-pic" src="/training/public/img/head-por.jpeg" alt="">
+                <span class="name"> 义琳</span>
+                <span class="time"> 一小时前</span>
+                <h2>
+                    <a href="#">
+                        没有真相的背影和没有达到的酒局
+                    </a>
+                </h2>
+                <p class="article-content">
+                    “你他妈居然还活着？！” 史三多刚一推门进来，就被东北猫瞅见了，于是，先是隔着老远大喊了一句，
+                    接着就开始冲着他数落：“你小子昨天是咋回事啊，人也不到，电话也关机，害我们一直等...
+                </p>
+                <img class="img-right" src="/training/public/img/user.jpeg"
+                     alt="">
+            </div>
+        </div>
+    </article>
+    <article>
+        <div class="article-left">
+            <div class="use-name">
+                <img class="head-pic" src="/training/public/img/head-por.jpeg" alt="">
+                <span class="name"> 刘淼</span>
+                <span class="time"> 一小时前</span>
+                <h2>
+                    <a href="#">
+                        优秀的人，凭什么要和你在一起？
+                    </a>
+                </h2>
+                <p class="article-content">
+                    01 一直有一个这样的问题：“为什么优秀的人总是不合群？” 网上最经典的答案是：
+                    “优秀的人也合群，只是他们合的群里没有你。” 02 想起了自己的一些故事。 大学时，我遇到了一...
+                </p>
+                <img class="img-right"
+                     src="/training/public/img/user.jpeg" alt="">
+            </div>
+        </div>
+        <div class="article-left">
+            <div class="use-name">
+                <img class="head-pic" src="/training/public/img/head-por.jpeg" alt="">
+                <span class="name"> 义琳</span>
+                <span class="time"> 一小时前</span>
+                <h2>
+                    <a href="#">
+                        没有真相的背影和没有达到的酒局
+                    </a>
+                </h2>
+                <p class="article-content">
+                    “你他妈居然还活着？！” 史三多刚一推门进来，就被东北猫瞅见了，于是，先是隔着老远大喊了一句，
+                    接着就开始冲着他数落：“你小子昨天是咋回事啊，人也不到，电话也关机，害我们一直等...
+                </p>
+                <img class="img-right" src="/training/public/img/user.jpeg"
+                     alt="">
+            </div>
+        </div>
+    </article>
+    <article>
+        <div class="article-left">
+            <div class="use-name">
+                <img class="head-pic" src="/training/public/img/head-por.jpeg" alt="">
+                <span class="name"> 刘淼</span>
+                <span class="time"> 一小时前</span>
+                <h2>
+                    <a href="#">
+                        优秀的人，凭什么要和你在一起？
+                    </a>
+                </h2>
+                <p class="article-content">
+                    01 一直有一个这样的问题：“为什么优秀的人总是不合群？” 网上最经典的答案是：
+                    “优秀的人也合群，只是他们合的群里没有你。” 02 想起了自己的一些故事。 大学时，我遇到了一...
+                </p>
+                <img class="img-right"
+                     src="/training/public/img/user.jpeg" alt="">
+            </div>
+        </div>
+        <div class="article-left">
+            <div class="use-name">
+                <img class="head-pic" src="/training/public/img/head-por.jpeg" alt="">
+                <span class="name"> 义琳</span>
+                <span class="time"> 一小时前</span>
+                <h2>
+                    <a href="#">
+                        没有真相的背影和没有达到的酒局
+                    </a>
+                </h2>
+                <p class="article-content">
+                    “你他妈居然还活着？！” 史三多刚一推门进来，就被东北猫瞅见了，于是，先是隔着老远大喊了一句，
+                    接着就开始冲着他数落：“你小子昨天是咋回事啊，人也不到，电话也关机，害我们一直等...
+                </p>
+                <img class="img-right" src="/training/public/img/user.jpeg"
+                     alt="">
+            </div>
+        </div>
+    </article>
+    <p class="footer">
+         2012-2017 上海佰集信息科技有限公司 / Tel:021-61995350 / 简书 / 沪ICP备11018329号-5 沪公网安备31010602000064号
+    </p>
+</section>
+<aside class="board">
+    <ul>
+        <li>
+            <a href="">
+                <img src="/training/public/img/1.png"
+                     alt="">
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="/training/public/img/2.png"
+                     alt="">
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="/training/public/img/3.png"
+                     alt="">
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="/training/public/img/4.png"
+                     alt="">
+            </a>
+        </li>
+    </ul>
+    <a href="">
+        <img class="board-look"
+             src="/training/public/img/5.png"
+             alt="">
+    </a>
+    <div class="writer">
+        <div>
+            <span class="write-left">推荐作者</span>
+            <span class="write-right"> 1/25</span>
+        </div>
+        <ul>
+            <li>
+                <a href="">
+                    <img class="head-one" src="/training/public/img/head-por.jpeg" alt="">
+                </a>
+                <span class="name">
+                    刘淼
+                </span>
+                <a href="">
+                    <i>
+                        +关注
+                    </i>
+                </a>
+                <span class="note">
+                    写了219.6k字，13.0k喜欢
+                </span>
+            </li>
+            <li>
+                <a href="">
+                    <img class="head-one" src="/training/public/img/head-por.jpeg" alt="">
+                </a>
+                <span class="name">
+                    义琳
+                </span>
+                <a href="">
+                    <i>
+                        +关注
+                    </i>
+                </a>
+                <span class="note">
+                    写了58,4k字，229喜欢
+                </span>
+            </li>
+            <li>
+                <a href="">
+                    <img class="head-one" src="/training/public/img/head-por.jpeg" alt="">
+                </a>
+                <span class="name">
+                    佳木
+                </span>
+                <a href="">
+                    <i>
+                        +关注
+                    </i>
+                </a>
+                <span class="note">
+                    写了173.5k字，2.4k喜欢
+                </span>
+            </li>
+            <li>
+                <a href="">
+                    <img class="head-one" src="/training/public/img/head-por.jpeg" alt="">
+                </a>
+                <span class="name">
+                    茜喵
+                </span>
+                <a href="">
+                    <i>
+                        +关注
+                    </i>
+                </a>
+                <span class="note">
+                    写了182.5k字，9.9k喜欢
+                </span>
+            </li>
+            <li>
+                <a href="">
+                    <img class="head-one" src="/training/public/img/head-por.jpeg" alt="">
+                </a>
+                <span class="name">
+                    无戒
+                </span>
+                <a href="">
+                    <i>
+                        +关注
+                    </i>
+                </a>
+                <span class="note">
+                    写了55.7k字，15.4k喜欢
+                </span>
+            </li>
+            <li>
+                <a class="check" href="">
+                    查看全部>
+                </a>
+            </li>
+        </ul>
+    </div>
 </aside>
-<div  style="clear:both"></div>
-<div class="user">
-    <div class="user-left">
-        <div class="user-self"><img class="head-por" src="/training/public/img/head-por.jpeg">夏姬八羔 &nbsp;7小时前 </div>
-        <div class="user-self"><a href="##" class="who"><b>优秀的人，凭什么要和你在一起？</b></a></div>
-        <div class="p">01 一直有一个这样的问题：“为什么优秀的人总是不合群？” 网上最经典的答案是：“优秀的人也合群，只是他们合的群里没有你。” 02 想起了自己的一些故事。大学时，我遇到了一...</div>
-    </div>
-    <div class="user-right"><img class="life-pic" src="/training/public/img/user.jpeg"></div>
-    <div style="clear:both"></div>
-</div>
-<div class="bottom-left"><img class="fake" src="/training/public/img/fake.png"></div>
-<div style="clear:both"></div>
 </body>
 </html>
