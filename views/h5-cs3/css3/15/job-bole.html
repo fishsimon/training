@@ -1,112 +1,418 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:http="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>伯乐在线</title>
-    <link rel="stylesheet" href="job-bole.css">
+    <link rel="stylesheet" href="job-bole.css" type="text/css">
 </head>
 <body>
-<div class="nav">
-    <div id="x-nav">
-        <div class="nav-left" >
-          <ul class="ul-nav1" id="sign-1">
-            <li><a href="">首页</a></li>
-            <li><a href="">咨询</a></li>
-            <li><a href="">文章</a></li>
-            <li><a href="">资源</a></li>
-            <li><a href="">小组</a></li>
-            <li><a href="">相亲</a></li>
-         </ul>
-        </div>
-
-        <div class="nav-right" >
-          <ul class="ul-nav2" id="sign-2">
-            <li><a href="">b</a></li>
-            <li><a href="">登录</a></li>
-            <li><a href="">注册</a></li>
-              <li id="sign-4"><a href="">频道</a></li>
-          </ul>
-        </div>
-    </div>
-</div>
 <header>
-    <div class="pic1"><a href="#"><img src="/training/public/img/bole1.png" class="logo"></a></div>
-    <div class="pic2" id="sign-3"><a href="#"><img src="/training/public/img/bole2.jpg" ></a></div>
+    <nav>
+        <div class="grid-1" id="hidden-nav">
+            <ul class="nav-left">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">资讯</a></li>
+                <li><a href="#">
+                    <option value="">文章</option>
+                </a>
+                </li>
+                <li><a href="#">资源</a></li>
+                <li><a href="#">小组</a></li>
+                <li><a href="#">相亲</a></li>
+            </ul>
+        </div>
+        <div class="grid-2" id="grid-s">
+            <ul class="nav-right">
+                <li><a href="#">?</a></li>
+                <li><a href="#">注册</a></li>
+                <li><a href="#">登陆</a></li>
+                <li class="hidden" id="play-nav">
+                    <a href="#">
+                        <select name="">
+                            <option value="">频道</option>
+                            <option value="">全部</option>
+                        </select>
+                    </a></li>
+            </ul>
+        </div>
+    </nav>
 </header>
-<div class="search">
-    <a href="#">拿高薪，还能扩大业界知名度，课堂讲师招募ing</a>
+<div class="banner">
+    <div class="head-img"><a href="#"><img src="/training/public/img/bole1.png"/></a></div>
+    <div class="head-ad"><a href="#"><img src="/training/public/img/bole2.jpg" height="90" width="700"/></a></div>
 </div>
+<div class="broadcast">
+    <a href="#">加入伯乐在线专栏作者。扩大知名度，还能得赞赏！</a>
+</div>
+<div class="clear"></div>
 <div class="content">
     <section>
-        <div class="focous"><b>热点关注</b></div>
-        <div class="section-left">
-            <div class="section-left-pic"><img src="/training/public/img/bole3.jpg" class="pic-1"></div>
-            <div class="section-left-header"><a href="#"><h1>远程办公是什么样的？</h1></a></div>
-            <div class="section-left-xheader"><a href="#">文章</a></div>
-            <div class="x-content">
-                <p>StackOverflow 公司近 400 个员工里有 85 人在家</p>
-                <p>远程办公。为了让这些远程办公的人有归属感，他们</p>
-                <p>公司采取了一系列很人性化的手段、并额外提供一些</p>
-                <p>福利。</p>
-                <p style="float: right"><a href="#">阅读全文》</a></p>
+        <article>
+            <div class="grid-4">
+                <h3>热点关注</h3>
+                <div class="box-img">
+                    <img src="/training/public/img/bole3.jpg"/>
+                </div>
+                <div>
+                    <h4><a href="">远程办公至上的公司是怎么样的</a></h4>
+                </div>
+                <div class="content-p"><p>我喜欢优秀的技术演讲。我不仅喜欢观看这类演讲，并乐于与人分享。最近我有充足的空闲时间，于是整理出了一
+                    个“每个程序员必看”的技术演讲列表。在选材时，我并没有把演讲的主题局限于具体的语言或库，而是选择了一些有
+                    宏观视野的内容。</p>
+                    <a href="#">阅读全文</a>
+                </div>
             </div>
-        </div>
-        <div class="section-right">
-        <div class="xbox">
-            <div class="xbox-pic"><a href="#"><img src="/training/public/img/bole4.jpg" class="header-pic"></a></div>
-            <div class="xbox-header"><a href="#"><h5>高薪也挡不住昂贵房租，FB工程师向扎克伯格求助。</h5></a></div>
-        </div>
-        <div class="xbox">
-            <div class="xbox-pic"><a href="#"><img src="/training/public/img/bole4.jpg" class="header-pic"></a></div>
-            <div class="xbox-header"><a href="#"><h5>高薪也挡不住昂贵房租，FB工程师向扎克伯格求助。</h5></a></div>
-        </div>
-        <div class="xbox">
-            <div class="xbox-pic"><a href="#"><img src="/training/public/img/bole4.jpg" class="header-pic"></a></div>
-            <div class="xbox-header"><a href="#"><h5>高薪也挡不住昂贵房租，FB工程师向扎克伯格求助。</h5></a></div>
-        </div>
-        <div class="xbox">
-            <div class="xbox-pic"><a href="#"><img src="/training/public/img/bole4.jpg" class="header-pic"></a></div>
-            <div class="xbox-header"><a href="#"><h5>高薪也挡不住昂贵房租，FB工程师向扎克伯格求助。</h5></a></div>
-        </div>
-    </div>
+            <div class="grid-5">
+                <div class="box-right">
+                    <div class="grid-4-img"><a href="#"><img src="/training/public/img/bole4.jpg"></a></div>
+                    <div class="grid-4-p">
+                        <p><a href="">Chrome 全面胜利；微软谷歌宣布提高漏洞奖金</a></p>
+                        <i><a href="">资讯</a></i>
+                        <i class="grid-4-icon"><img src="/training/public/img/bole4.jpg"/>5</i>
+                    </div>
+                </div>
+                <div class="box-right">
+                    <div class="grid-4-img"><a href="#"><img src="/training/public/img/bole4.jpg"></a></div>
+                    <div class="grid-4-p">
+                        <p><a href="">Chrome 全面胜利；微软谷歌宣布提高漏洞奖金</a></p>
+                        <i><a href="">资讯</a></i>
+                        <i class="grid-4-icon"><img src="/training/public/img/bole4.jpg"/>5</i>
+                    </div>
+                </div>
+                <div class="box-right">
+                    <div class="grid-4-img"><a href="#"><img src="/training/public/img/bole4.jpg"></a></div>
+                    <div class="grid-4-p">
+                        <p><a href="">Chrome 全面胜利；微软谷歌宣布提高漏洞奖金</a></p>
+                        <i><a href="">资讯</a></i>
+                        <i class="grid-4-icon"><img src="/training/public/img/bole4.jpg"/>5</i>
+                    </div>
+                </div>
+                <div class="box-right">
+                    <div class="grid-4-img"><a href="#"><img src="/training/public/img/bole4.jpg"></a></div>
+                    <div class="grid-4-p">
+                        <p><a href="">Chrome 全面胜利；微软谷歌宣布提高漏洞奖金</a></p>
+                        <i><a href="">资讯</a></i>
+                        <i class="grid-4-icon"><img src="/training/public/img/bole4.jpg"/>5</i>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-4">
+                <h3>热点关注</h3>
+                <div class="box-img">
+                    <img src="/training/public/img/bole3.jpg"/>
+                </div>
+                <div>
+                    <h4><a href="">远程办公至上的公司是怎么样的</a></h4>
+                </div>
+                <div class="content-p"><p>我喜欢优秀的技术演讲。我不仅喜欢观看这类演讲，并乐于与人分享。最近我有充足的空闲时间，于是整理出了一
+                    个“每个程序员必看”的技术演讲列表。在选材时，我并没有把演讲的主题局限于具体的语言或库，而是选择了一些有
+                    宏观视野的内容。</p>
+                    <a href="#">阅读全文</a>
+                </div>
+            </div>
+            <div class="grid-5">
+                <div class="box-right">
+                    <div class="grid-4-img"><a href="#"><img src="/training/public/img/bole4.jpg"></a></div>
+                    <div class="grid-4-p">
+                        <p><a href="">Chrome 全面胜利；微软谷歌宣布提高漏洞奖金</a></p>
+                        <i><a href="">资讯</a></i>
+                        <i class="grid-4-icon"><img src="/training/public/img/bole4.jpg"/>5</i>
+                    </div>
+                </div>
+                <div class="box-right">
+                    <div class="grid-4-img"><a href="#"><img src="/training/public/img/bole4.jpg"></a></div>
+                    <div class="grid-4-p">
+                        <p><a href="">Chrome 全面胜利；微软谷歌宣布提高漏洞奖金</a></p>
+                        <i><a href="">资讯</a></i>
+                        <i class="grid-4-icon"><img src="/training/public/img/bole4.jpg"/>5</i>
+                    </div>
+                </div>
+                <div class="box-right">
+                    <div class="grid-4-img"><a href="#"><img src="/training/public/img/bole4.jpg"></a></div>
+                    <div class="grid-4-p">
+                        <p><a href="">Chrome 全面胜利；微软谷歌宣布提高漏洞奖金</a></p>
+                        <i><a href="">资讯</a></i>
+                        <i class="grid-4-icon"><img src="/training/public/img/bole4.jpg"/>5</i>
+                    </div>
+                </div>
+                <div class="box-right">
+                    <div class="grid-4-img"><a href="#"><img src="/training/public/img/bole4.jpg"></a></div>
+                    <div class="grid-4-p">
+                        <p><a href="">Chrome 全面胜利；微软谷歌宣布提高漏洞奖金</a></p>
+                        <i><a href="">资讯</a></i>
+                        <i class="grid-4-icon"><img src="/training/public/img/bole4.jpg"/>5</i>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-4">
+                <h3>热点关注</h3>
+                <div class="box-img">
+                    <img src="/training/public/img/bole3.jpg"/>
+                </div>
+                <div>
+                    <h4><a href="">远程办公至上的公司是怎么样的</a></h4>
+                </div>
+                <div class="content-p"><p>我喜欢优秀的技术演讲。我不仅喜欢观看这类演讲，并乐于与人分享。最近我有充足的空闲时间，于是整理出了一
+                    个“每个程序员必看”的技术演讲列表。在选材时，我并没有把演讲的主题局限于具体的语言或库，而是选择了一些有
+                    宏观视野的内容。</p>
+                    <a href="#">阅读全文</a>
+                </div>
+            </div>
+            <div class="grid-5">
+                <div class="box-right">
+                    <div class="grid-4-img"><a href="#"><img src="/training/public/img/bole4.jpg"></a></div>
+                    <div class="grid-4-p">
+                        <p><a href="">Chrome 全面胜利；微软谷歌宣布提高漏洞奖金</a></p>
+                        <i><a href="">资讯</a></i>
+                        <i class="grid-4-icon"><img src="/training/public/img/bole4.jpg"/>5</i>
+                    </div>
+                </div>
+                <div class="box-right">
+                    <div class="grid-4-img"><a href="#"><img src="/training/public/img/bole4.jpg"></a></div>
+                    <div class="grid-4-p">
+                        <p><a href="">Chrome 全面胜利；微软谷歌宣布提高漏洞奖金</a></p>
+                        <i><a href="">资讯</a></i>
+                        <i class="grid-4-icon"><img src="/training/public/img/bole4.jpg"/>5</i>
+                    </div>
+                </div>
+                <div class="box-right">
+                    <div class="grid-4-img"><a href="#"><img src="/training/public/img/bole4.jpg"></a></div>
+                    <div class="grid-4-p">
+                        <p><a href="">Chrome 全面胜利；微软谷歌宣布提高漏洞奖金</a></p>
+                        <i><a href="">资讯</a></i>
+                        <i class="grid-4-icon"><img src="/training/public/img/bole4.jpg"/>5</i>
+                    </div>
+                </div>
+                <div class="box-right">
+                    <div class="grid-4-img"><a href="#"><img src="/training/public/img/bole4.jpg"></a></div>
+                    <div class="grid-4-p">
+                        <p><a href="">Chrome 全面胜利；微软谷歌宣布提高漏洞奖金</a></p>
+                        <i><a href="">资讯</a></i>
+                        <i class="grid-4-icon"><img src="/training/public/img/bole4.jpg"/>5</i>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-4">
+                <h3>热点关注</h3>
+                <div class="box-img">
+                    <img src="/training/public/img/bole3.jpg"/>
+                </div>
+                <div>
+                    <h4><a href="">远程办公至上的公司是怎么样的</a></h4>
+                </div>
+                <div class="content-p"><p>我喜欢优秀的技术演讲。我不仅喜欢观看这类演讲，并乐于与人分享。最近我有充足的空闲时间，于是整理出了一
+                    个“每个程序员必看”的技术演讲列表。在选材时，我并没有把演讲的主题局限于具体的语言或库，而是选择了一些有
+                    宏观视野的内容。</p>
+                    <a href="#">阅读全文</a>
+                </div>
+            </div>
+            <div class="grid-5">
+                <div class="box-right">
+                    <div class="grid-4-img"><a href="#"><img src="/training/public/img/bole4.jpg"></a></div>
+                    <div class="grid-4-p">
+                        <p><a href="">Chrome 全面胜利；微软谷歌宣布提高漏洞奖金</a></p>
+                        <i><a href="">资讯</a></i>
+                        <i class="grid-4-icon"><img src="/training/public/img/bole4.jpg"/>5</i>
+                    </div>
+                </div>
+                <div class="box-right">
+                    <div class="grid-4-img"><a href="#"><img src="/training/public/img/bole4.jpg"></a></div>
+                    <div class="grid-4-p">
+                        <p><a href="">Chrome 全面胜利；微软谷歌宣布提高漏洞奖金</a></p>
+                        <i><a href="">资讯</a></i>
+                        <i class="grid-4-icon"><img src="/training/public/img/bole4.jpg"/>5</i>
+                    </div>
+                </div>
+                <div class="box-right">
+                    <div class="grid-4-img"><a href="#"><img src="/training/public/img/bole4.jpg"></a></div>
+                    <div class="grid-4-p">
+                        <p><a href="">Chrome 全面胜利；微软谷歌宣布提高漏洞奖金</a></p>
+                        <i><a href="">资讯</a></i>
+                        <i class="grid-4-icon"><img src="/training/public/img/bole4.jpg"/>5</i>
+                    </div>
+                </div>
+                <div class="box-right">
+                    <div class="grid-4-img"><a href="#"><img src="/training/public/img/bole4.jpg"></a></div>
+                    <div class="grid-4-p">
+                        <p><a href="">Chrome 全面胜利；微软谷歌宣布提高漏洞奖金</a></p>
+                        <i><a href="">资讯</a></i>
+                        <i class="grid-4-icon"><img src="/training/public/img/bole4.jpg"/>5</i>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-4">
+                <h3>热点关注</h3>
+                <div class="box-img">
+                    <img src="/training/public/img/bole3.jpg"/>
+                </div>
+                <div>
+                    <h4><a href="">远程办公至上的公司是怎么样的</a></h4>
+                </div>
+                <div class="content-p"><p>我喜欢优秀的技术演讲。我不仅喜欢观看这类演讲，并乐于与人分享。最近我有充足的空闲时间，于是整理出了一
+                    个“每个程序员必看”的技术演讲列表。在选材时，我并没有把演讲的主题局限于具体的语言或库，而是选择了一些有
+                    宏观视野的内容。</p>
+                    <a href="#">阅读全文</a>
+                </div>
+            </div>
+            <div class="grid-5">
+                <div class="box-right">
+                    <div class="grid-4-img"><a href="#"><img src="/training/public/img/bole4.jpg"></a></div>
+                    <div class="grid-4-p">
+                        <p><a href="">Chrome 全面胜利；微软谷歌宣布提高漏洞奖金</a></p>
+                        <i><a href="">资讯</a></i>
+                        <i class="grid-4-icon"><img src="/training/public/img/bole4.jpg"/>5</i>
+                    </div>
+                </div>
+                <div class="box-right">
+                    <div class="grid-4-img"><a href="#"><img src="/training/public/img/bole4.jpg"></a></div>
+                    <div class="grid-4-p">
+                        <p><a href="">Chrome 全面胜利；微软谷歌宣布提高漏洞奖金</a></p>
+                        <i><a href="">资讯</a></i>
+                        <i class="grid-4-icon"><img src="/training/public/img/bole4.jpg"/>5</i>
+                    </div>
+                </div>
+                <div class="box-right">
+                    <div class="grid-4-img"><a href="#"><img src="/training/public/img/bole4.jpg"></a></div>
+                    <div class="grid-4-p">
+                        <p><a href="">Chrome 全面胜利；微软谷歌宣布提高漏洞奖金</a></p>
+                        <i><a href="">资讯</a></i>
+                        <i class="grid-4-icon"><img src="/training/public/img/bole4.jpg"/>5</i>
+                    </div>
+                </div>
+                <div class="box-right">
+                    <div class="grid-4-img"><a href="#"><img src="/training/public/img/bole4.jpg"></a></div>
+                    <div class="grid-4-p">
+                        <p><a href="">Chrome 全面胜利；微软谷歌宣布提高漏洞奖金</a></p>
+                        <i><a href="">资讯</a></i>
+                        <i class="grid-4-icon"><img src="/training/public/img/bole4.jpg"/>5</i>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+        <div class="clear"></div>
     </section>
     <aside>
-        <div class="aside-bbox">
-            <div class="bbox-inside">
-                <span class="reg-login-box-title">伯乐在线</span>
-                <span class="reg-login-box-content">做最专业的IT互联网职业社区</span>
-                <span class="divider"></span>
-                <div class="reg-login-box-icon">
-                    <span><a href="http://www.jobbole.com/login?redirect=http://www.jobbole.com/">登录</a></span>
-                    ·                 <span><a href="http://www.jobbole.com/register">注册</a></span>
-                    ·                 <span> 从以下账号直接登录</span><br>
-                    <!-- 使用社交帐号登录 来自 WordPress连接微博 插件 -->
-                    <span class="connectBox1 t_login_button"><a href="http://www.jobbole.com/wp-content/plugins/wp-connect/login.php?go=weixin&amp;redirect_url=http%3A%2F%2Fwww.jobbole.com%2F" title="微信" rel="nofollow"><img src="http://www.jobbole.com/wp-content/plugins/wp-connect/images/login/btn_weixin.png"></a>
-                        <a href="http://www.jobbole.com/wp-content/plugins/wp-connect/login.php?go=qzone&amp;redirect_url=http%3A%2F%2Fwww.jobbole.com%2F" title="QQ" rel="nofollow"><img src="http://www.jobbole.com/wp-content/plugins/wp-connect/images/login/btn_qzone.png"></a>
-                        <a href="http://www.jobbole.com/wp-content/plugins/wp-connect/login.php?go=sina&amp;redirect_url=http%3A%2F%2Fwww.jobbole.com%2F" title="新浪微博" rel="nofollow"><img src="http://www.jobbole.com/wp-content/plugins/wp-connect/images/login/btn_sina.png"></a>
-                        <a href="http://www.jobbole.com/wp-content/plugins/wp-connect/login.php?go=douban&amp;redirect_url=http%3A%2F%2Fwww.jobbole.com%2F" title="豆瓣" rel="nofollow"><img src="http://www.jobbole.com/wp-content/plugins/wp-connect/images/login/btn_douban.png"></a>
-                        <a href="http://www.jobbole.com/wp-content/plugins/wp-connect/login.php?go=github&amp;redirect_url=http%3A%2F%2Fwww.jobbole.com%2F" title="GitHub" rel="nofollow"><img src="http://www.jobbole.com/wp-content/plugins/wp-connect/images/login/btn_github.png"></a>
-                    </span>
+        <div class="community ">
+            <div class="community-top">
+                <p>伯乐在线</p>
+                <span>做最专业的IT互联网职业社区</span>
+            </div>
+            <div class="community-bottom">
+                <p><a href="#">登录</a>·<a href="#">注册</a>·从以下账号直接登录</p>
+                <div class="third-party">
+                    <a href="#"><img
+                            src="http://www.jobbole.com/wp-content/plugins/wp-connect/images/login/btn_weixin.png"
+                            alt="weiX"></a>
+                    <a href="#"><img
+                            src="http://www.jobbole.com/wp-content/plugins/wp-connect/images/login/btn_qzone.png"
+                            alt="qq"></a>
+                    <a href="#"><img
+                            src="http://www.jobbole.com/wp-content/plugins/wp-connect/images/login/btn_sina.png"
+                            alt="weiBo"></a>
+                    <a href="#"><img
+                            src="http://www.jobbole.com/wp-content/plugins/wp-connect/images/login/btn_douban.png"
+                            alt="douB"></a>
+                    <a href="#"><img
+                            src="http://www.jobbole.com/wp-content/plugins/wp-connect/images/login/btn_github.png"
+                            alt="gitHub"></a>
                 </div>
             </div>
         </div>
-        <div class="textwidget"><p><a href="http://group.jobbole.com/22945/" target="_blank"><img src="http://wx4.sinaimg.cn/mw690/bfdcef89gy1fdd9j7jnsjj208c046q3c.jpg"></a></p>
+        <div class="aside-banner">
+            <img src="http://wx4.sinaimg.cn/mw690/bfdcef89gy1fdd9j7jnsjj208c046q3c.jpg" alt="banner">
         </div>
-        <h3 class="widget-title">
-            <a target="_blank" href="http://top.jobbole.com/category/news/">业界热点资讯</a>
-            <span style="float:right;"><a target="_blank" href="http://top.jobbole.com/category/news/">更多 »</a></span>
-        </h3>
-        <div class="aside-xiangsi">
-            <div class="xbox xbox1">
-                <div class="xbox-pic"><a href="#"><img src="/training/public/img/bole4.jpg" class="header-pic"></a></div>
-                <div class="xbox-header"><a href="#"><h5>高薪也挡不住昂贵房租，FB工程师向扎克伯格求助。</h5></a></div>
+        <div class="community ">
+            <div class="community-top">
+                <p>伯乐在线</p>
+                <span>做最专业的IT互联网职业社区</span>
             </div>
-            <div class="xbox xbox1">
-                <div class="xbox-pic"><a href="#"><img src="/training/public/img/bole4.jpg" class="header-pic"></a></div>
-                <div class="xbox-header"><a href="#"><h5>高薪也挡不住昂贵房租，FB工程师向扎克伯格求助。</h5></a></div>
+            <div class="community-bottom">
+                <p><a href="#">登录</a>·<a href="#">注册</a>·从以下账号直接登录</p>
+                <div class="third-party">
+                    <a href="#"><img
+                            src="http://www.jobbole.com/wp-content/plugins/wp-connect/images/login/btn_weixin.png"
+                            alt="weiX"></a>
+                    <a href="#"><img
+                            src="http://www.jobbole.com/wp-content/plugins/wp-connect/images/login/btn_qzone.png"
+                            alt="qq"></a>
+                    <a href="#"><img
+                            src="http://www.jobbole.com/wp-content/plugins/wp-connect/images/login/btn_sina.png"
+                            alt="weiBo"></a>
+                    <a href="#"><img
+                            src="http://www.jobbole.com/wp-content/plugins/wp-connect/images/login/btn_douban.png"
+                            alt="douB"></a>
+                    <a href="#"><img
+                            src="http://www.jobbole.com/wp-content/plugins/wp-connect/images/login/btn_github.png"
+                            alt="gitHub"></a>
+                </div>
             </div>
-            </div>
-     </aside>
+        </div>
+        <div class="aside-banner">
+            <img src="http://wx4.sinaimg.cn/mw690/bfdcef89gy1fdd9j7jnsjj208c046q3c.jpg" alt="banner">
+        </div>
+    </aside>
 </div>
+<div class="clear"></div>
+<footer>
+    <div class="clear"></div>
+    <div class="footerbox">
+        <div class="box"><h1>关于我们</h1>
+            <p>伯乐在线成立于 2010 年，由 @黄余粮 和 @黄利民<br/> 联合发起，
+                立志做最专业的IT互联网职业社区。</p>
+            <div class="clear"></div>
+            <ul class="list">
+
+                <li class="quick-link">快速链接</li>
+                <li><a href="#">网站使用指南 ? </a></li>
+                <li><a href="#">问题反馈与求助 ? </a></li>
+                <li><a href="#">网站积分规则 ? </a></li>
+                <li><a href="#">网站声望规则 ?</a></li>
+
+
+            </ul>
+        </div>
+        <div class="box"><h1>关注我们</h1>
+            <p><span>新浪微博</span><a href="#">@伯乐在线官方微博</a></p>
+            <p><span>RSS</span><a href="#">@订阅地址</a></p>
+            <div class="foot-img">
+                <p>推荐微信号</p>
+                <img src="http://jbcdn2.b0.upaiyun.com/2015/12/weixin/jobbole_weixin.png" alt="erWeiMa">
+                <img src="http://jbcdn2.b0.upaiyun.com/2015/12/weixin/iprogrammer_weixin.png" alt="erWeiMa">
+                <img src="http://jbcdn2.b0.upaiyun.com/2015/12/weixin/ui_weixin.png" alt="erWeiMa">
+            </div>
+            <div class="clear"></div>
+            <div class="contact">
+                <p>合作联系</p>
+                <p>Email：<a href="">bd@Jobbole.com</a></p>
+                <p>QQ： 2302462408 （加好友请注明来意）</p>
+            </div>
+        </div>
+        <div class="box"><h1>频道</h1>
+            <ul class="list">
+                <li><a href="#">小组</a> – 好的话题、有启发的回复、值得信赖的圈子</li>
+                <li><a href="#">头条</a> – 分享和发现有价值的内容与观点</li>
+                <li><a href="#">小组</a> – 为IT单身男女服务的征婚传播平台</li>
+                <li><a href="#">头条</a> – 分享和发现有价值的内容与观点</li>
+                <li><a href="#">小组</a> – 国内外的精选博客文章</li>
+                <li><a href="#">头条</a> – 分享和发现有价值的内容与观点</li>
+                <li><a href="#">小组</a> – 翻译传播优秀的外文文章</li>
+                <li><a href="#">头条</a> – 专注Android技术分享</li>
+                <li><a href="#">小组</a> – UI,网页，交互和用户体验</li>
+                <li><a href="#">头条</a> – 专注Python技术分享</li>
+            </ul>
+        </div>
+    </div>
+    <div class="foot">
+        <div class="footbox">
+            <span>2017伯乐在线 </span>
+            <a href="#">文章</a>
+            <a href="#">小组</a>
+            <a href="#">相亲</a>
+            <a href="#">加入我们</a>
+            <a href="#">反馈</a>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
